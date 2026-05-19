@@ -1,331 +1,282 @@
+
 import re
 from urllib.parse import unquote
 
 import pandas as pd
 import streamlit as st
+import pandas as pd
 
 st.set_page_config(
-    page_title="Saudi Research Library",
+    page_title="Research Data Library",
     page_icon="📚",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
-# ---------------- HELPERS ----------------
-def clean_title(title):
-    if pd.isna(title):
-        return "Untitled"
-
-    title = unquote(str(title))
-    title = re.sub(r"\.(pdf|xlsx|xls|csv)$", "", title, flags=re.I)
-    title = re.sub(r"%\d+", "", title)
-    title = title.replace("+", " ")
-    title = re.sub(r"\(\d+\)", "", title)
-    title = re.sub(r"_", " ", title)
-    title = re.sub(r"\s+", " ", title).strip()
-
-    return title
-
-
 @st.cache_data
-def load_data():
-    df = pd.read_csv("documents.csv")
+def get_counts():
+    saudi = pd.read_csv("data/saudi_documents.csv")
+    world = pd.read_csv("data/worldbank_documents.csv")
+    return len(saudi), len(world)
 
-    df["title"] = df["title"].apply(clean_title)
-    df["source"] = df["source"].fillna("Unknown")
-    df["type"] = df["type"].fillna("Unknown")
-    df["year"] = df["year"].fillna("Unknown").astype(str)
-
-    return df
+saudi_count, world_count = get_counts()
+total = saudi_count + world_count
 
 
-df = load_data()
-
-# ---------------- SESSION ----------------
-if "dark_mode" not in st.session_state:
-    st.session_state.dark_mode = False
-
-if "page" not in st.session_state:
-    st.session_state.page = 1
-
-# ---------------- SIDEBAR ----------------
-with st.sidebar:
-    st.markdown("## ⚙️ Settings")
-    st.session_state.dark_mode = st.toggle("🌙 Dark Mode")
-
-dark_mode = st.session_state.dark_mode
-
-# ---------------- COLORS ----------------
-if dark_mode:
-    BG = "#0f172a"
-    CARD = "#1e293b"
-    SIDEBAR = "#111827"
-    TEXT = "#f8fafc"
-    MUTED = "#94a3b8"
-    BORDER = "#334155"
-    BTN = "#2563eb"
-    BTN_HOVER = "#1d4ed8"
-else:
-    BG = "#f8fafc"
-    CARD = "#ffffff"
-    SIDEBAR = "#f1f5f9"
-    TEXT = "#0f172a"
-    MUTED = "#64748b"
-    BORDER = "#e2e8f0"
-    BTN = "#0f172a"
-    BTN_HOVER = "#1e293b"
-
-# ---------------- CSS ----------------
-st.markdown(f"""
+st.markdown("""
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-/* APP */
-.stApp {{
-    background-color: {BG};
-    color: {TEXT};
-}}
+html, body, .stApp {
+    font-family: 'Inter', sans-serif;
+    background:
+        radial-gradient(circle at top right, rgba(37,99,235,0.16), transparent 35%),
+        radial-gradient(circle at top left, rgba(16,185,129,0.08), transparent 35%),
+        #020617;
+}
 
-.block-container {{
+#MainMenu, footer, header {
+    visibility: hidden;
+}
+
+[data-testid="stSidebar"],
+[data-testid="collapsedControl"] {
+    display: none;
+}
+
+.block-container {
+    max-width: 1280px;
     padding-top: 2rem;
-    max-width: 1400px;
-}}
+    padding-bottom: 4rem;
+}
 
-/* SIDEBAR */
-section[data-testid="stSidebar"] {{
-    background: {SIDEBAR} !important;
-    border-right: 1px solid {BORDER};
-}}
-
-section[data-testid="stSidebar"] * {{
-    color: {TEXT} !important;
-}}
-
-/* INPUTS */
-.stTextInput input,
-.stSelectbox div[data-baseweb="select"] > div {{
-    background: {CARD} !important;
-    color: {TEXT} !important;
-    border: 1px solid {BORDER} !important;
-    border-radius: 12px !important;
-}}
-
-/* HERO */
-.hero {{
-    background: {CARD};
-    border: 1px solid {BORDER};
-    padding: 30px;
-    border-radius: 24px;
-    margin-bottom: 28px;
-    box-shadow: 0 4px 18px rgba(0,0,0,0.05);
-}}
-
-.hero h1 {{
-    margin: 0;
-    color: {TEXT};
-    font-size: 46px;
-}}
-
-.hero p {{
-    color: {MUTED};
-    margin-top: 8px;
-}}
-
-/* METRICS */
-.metric-card {{
-    background: {CARD};
-    border: 1px solid {BORDER};
-    border-radius: 20px;
-    padding: 28px;
-    text-align: center;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.04);
-}}
-
-.metric-value {{
-    font-size: 42px;
-    font-weight: 700;
-    color: {TEXT};
-}}
-
-.metric-label {{
-    color: {MUTED};
-    font-size: 15px;
-    margin-top: 8px;
-}}
-
-/* DOCUMENT CARD */
-.doc-card {{
-    background: {CARD};
-    border: 1px solid {BORDER};
+/* metrics */
+.metric-box {
+    background: rgba(15,23,42,0.72);
+    backdrop-filter: blur(18px);
     border-radius: 22px;
-    padding: 24px;
-    margin-bottom: 18px;
-    box-shadow: 0 4px 14px rgba(0,0,0,0.04);
-}}
+    padding: 1.6rem;
+    text-align: center;
+    border: 1px solid rgba(255,255,255,0.08);
+    box-shadow: 0 12px 35px rgba(0,0,0,0.35);
+}
 
-.doc-title {{
-    font-size: 20px;
-    font-weight: 700;
-    color: {TEXT};
-    margin-bottom: 10px;
-}}
+.metric-number {
+    font-size: 2.4rem;
+    font-weight: 800;
+    color: #60a5fa;
+}
 
-.doc-meta {{
-    color: {MUTED};
-    font-size: 14px;
-    margin-bottom: 18px;
-}}
+/* source cards */
+.source-card {
+    min-height: 540px;
+    background: linear-gradient(180deg, rgba(8,18,40,0.95), rgba(2,8,23,0.98));
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 24px;
+    padding: 2rem;
+    box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+}
 
-/* BADGES */
-.badge {{
+.logo-wrap {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.logo-wrap img {
+    max-height: 70px;
+    width: auto;
+    object-fit: contain;
+}
+
+.source-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: white;
+    margin: 0.6rem 0;
+}
+
+.source-count {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #60a5fa;
+}
+
+.source-desc {
+    color: #cbd5e1;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+}
+
+.badge {
+    display: inline-block;
+    margin-top: 1.2rem;
     padding: 10px 18px;
     border-radius: 999px;
     font-weight: 600;
-    display: inline-block;
-    text-align: center;
-    min-width: 120px;
-}}
+    font-size: 14px;
+}
 
-.pdf {{
-    background: #FEE2E2;
-    color: #B91C1C;
-}}
+.badge-green {
+    background: rgba(16,185,129,0.14);
+    border: 1px solid rgba(16,185,129,0.3);
+    color: #86efac;
+}
 
-.excel {{
-    background: #DCFCE7;
-    color: #166534;
-}}
+.badge-blue {
+    background: rgba(59,130,246,0.14);
+    border: 1px solid rgba(59,130,246,0.3);
+    color: #93c5fd;
+}
 
-.year {{
-    background: #DBEAFE;
-    color: #1D4ED8;
-}}
+/* buttons */
+.stButton > button {
+    height: 56px;
+    border-radius: 16px;
+    font-size: 18px;
+    font-weight: 700;
+    border: none;
+    color: white;
+    background: linear-gradient(135deg, #1d4ed8, #2563eb);
+    box-shadow: 0 10px 25px rgba(37,99,235,0.3);
+}
 
-/* BUTTON FIX */
-a[data-testid="stLinkButton"] {{
-    background: {BTN} !important;
-    color: white !important;
-    border-radius: 14px !important;
-    padding: 12px 22px !important;
-    font-weight: 600 !important;
-    border: none !important;
-    text-decoration: none !important;
-}}
+/* why section */
+.why-box {
+    background: rgba(15,23,42,0.68);
+    backdrop-filter: blur(18px);
+    border-radius: 24px;
+    padding: 2.2rem;
+    border: 1px solid rgba(255,255,255,0.08);
+}
 
-a[data-testid="stLinkButton"]:hover {{
-    background: {BTN_HOVER} !important;
-    color: white !important;
-}}
-
-a[data-testid="stLinkButton"] * {{
-    color: white !important;
-}}
-
-/* REMOVE STREAMLIT WEIRD STYLES */
-[data-testid="stMetricValue"] {{
-    color: {TEXT} !important;
-}}
-
-[data-testid="stMetricLabel"] {{
-    color: {MUTED} !important;
-}}
-
+.why-item {
+    font-size: 1.05rem;
+    color: #cbd5e1;
+    margin: 0.8rem 0;
+}
 </style>
 """, unsafe_allow_html=True)
 
-# ---------------- HEADER ----------------
-st.markdown("""
-<div class="navbar">
-    <h1>📚 Saudi Research Library</h1>
-    <p>Internal Research Document Portal</p>
+
+# HERO
+st.html("""
+<div style="text-align:center; padding: 2rem 0 3rem 0;">
+    <h1 style="
+        font-size:4.6rem;
+        font-weight:800;
+        background: linear-gradient(90deg,#ffffff,#93c5fd);
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+        margin-bottom:0.8rem;
+    ">
+        Research Data Library
+    </h1>
+
+    <p style="
+        font-size:1.2rem;
+        color:#94a3b8;
+        max-width:760px;
+        margin:auto;
+        line-height:1.7;
+    ">
+        Trusted official datasets. Fast access. Research-ready downloads.
+    </p>
 </div>
-""", unsafe_allow_html=True)
+""")
 
-# ---------------- FILTERS ----------------
-with st.sidebar:
-    st.markdown("## 🔎 Search & Filters")
 
-    search = st.text_input("Search by title")
+# METRICS
+m1, m2, m3 = st.columns(3)
 
-    sources = ["All"] + sorted(df["source"].unique().tolist())
-    selected_source = st.selectbox("Source", sources)
+with m1:
+    st.html(f"""
+    <div class="metric-box">
+        <div class="metric-number">{total}+</div>
+        <div>Available Resources</div>
+    </div>
+    """)
 
-    years = ["All"] + sorted(df["year"].unique().tolist(), reverse=True)
-    selected_year = st.selectbox("Year", years)
+with m2:
+    st.html("""
+    <div class="metric-box">
+        <div class="metric-number">2</div>
+        <div>Official Sources</div>
+    </div>
+    """)
 
-    types = ["All"] + sorted(df["type"].unique().tolist())
-    selected_type = st.selectbox("File Type", types)
+with m3:
+    st.html("""
+    <div class="metric-box">
+        <div class="metric-number">Monthly</div>
+        <div>Auto Updates</div>
+    </div>
+    """)
 
-# ---------------- FILTERING ----------------
-filtered = df.copy()
+st.write("")
 
-if search:
-    filtered = filtered[
-        filtered["title"].str.contains(search, case=False, na=False)
-    ]
 
-if selected_source != "All":
-    filtered = filtered[filtered["source"] == selected_source]
-
-if selected_year != "All":
-    filtered = filtered[filtered["year"] == selected_year]
-
-if selected_type != "All":
-    filtered = filtered[filtered["type"] == selected_type]
-
-# reset page
-total_pages = max(1, (len(filtered) - 1) // 25 + 1)
-if st.session_state.page > total_pages:
-    st.session_state.page = 1
-
-# ---------------- METRICS ----------------
-pdf_count = len(filtered[filtered["type"] == "PDF"])
-excel_count = len(filtered[filtered["type"] == "Excel"])
-
-c1, c2, c3, c4 = st.columns(4)
+# SOURCE CARDS
+c1, c2 = st.columns(2, gap="large")
 
 with c1:
-    st.markdown(
-        f'<div class="metric"><h2>{len(filtered)}</h2><p>Total Files</p></div>',
-        unsafe_allow_html=True
-    )
+    st.html(f"""
+    <div class="source-card">
+        <div class="logo-wrap">
+            <img src="https://stats.gov.sa/o/resources/images/logo/logo.svg">
+        </div>
+
+        <div class="source-title">Saudi Statistics</div>
+        <div class="source-count">{saudi_count}</div>
+
+        <div class="source-desc">
+            Official Saudi reports, PDF publications, and Excel datasets.
+        </div>
+
+        <div class="badge badge-green">
+            ✓ Official Government Source
+        </div>
+    </div>
+    """)
+
+    if st.button("Explore Saudi Statistics →", use_container_width=True):
+        st.switch_page("pages/saudi.py")
 
 with c2:
-    st.markdown(
-        f'<div class="metric"><h2>{filtered["source"].nunique()}</h2><p>Sources</p></div>',
-        unsafe_allow_html=True
-    )
+    st.html(f"""
+    <div class="source-card">
+        <div class="logo-wrap">
+            <img src="https://www.worldbank.org/content/dam/sites/edge/wbglogo-topnav-eng.svg">
+        </div>
 
-with c3:
-    st.markdown(
-        f'<div class="metric"><h2>{pdf_count}</h2><p>PDF Files</p></div>',
-        unsafe_allow_html=True
-    )
+        <div class="source-title">World Bank</div>
+        <div class="source-count">{world_count}</div>
 
-with c4:
-    st.markdown(
-        f'<div class="metric"><h2>{excel_count}</h2><p>Excel Files</p></div>',
-        unsafe_allow_html=True
-    )
+        <div class="source-desc">
+            Global economic indicators and downloadable datasets.
+        </div>
 
-st.markdown("## Documents")
+        <div class="badge badge-blue">
+            🌍 Trusted International Source
+        </div>
+    </div>
+    """)
 
-# ---------------- PAGINATION ----------------
-per_page = 25
-start = (st.session_state.page - 1) * per_page
-end = start + per_page
-page_df = filtered.iloc[start:end]
+    if st.button("Explore World Bank →", use_container_width=True):
+        st.switch_page("pages/worldbank.py")
 
-# ---------------- DOCUMENTS ----------------
-if page_df.empty:
-    st.warning("No matching documents found.")
+st.write("")
+st.write("")
 
-for _, row in page_df.iterrows():
-    with st.container():
-        st.markdown('<div class="doc-card">', unsafe_allow_html=True)
 
-        st.markdown(f"### {row['title']}")
-        st.caption(f"Source: {row['source']}")
+# WHY
+st.html("""
+<div class="why-box">
+    <h2 style="color:white;">Why this platform?</h2>
 
+<<<<<<< HEAD
         col1, col2, col3 = st.columns([1, 1, 1.2])
 
         with col1:
@@ -368,3 +319,10 @@ with next_col:
     if st.button("Next ➡", disabled=st.session_state.page == total_pages):
         st.session_state.page += 1
         st.rerun()
+=======
+    <div class="why-item">🌐 Unified access to multiple trusted official sources</div>
+    <div class="why-item">🔎 Fast search and filtering experience</div>
+    <div class="why-item">🔄 Automatically updated downloadable datasets</div>
+    <div class="why-item">📊 Research-ready resources for analysts and businesses</div>
+</div>
+""")
