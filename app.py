@@ -1,17 +1,17 @@
-
-import re
-from urllib.parse import unquote
-
-import pandas as pd
 import streamlit as st
 import pandas as pd
 
 st.set_page_config(
     page_title="Research Data Library",
-    page_icon="📚",
+    page_icon="https://cdn-icons-png.flaticon.com/128/4300/4300059.png",
     layout="wide",
     initial_sidebar_state="collapsed"
 )
+
+SAUDI_LOGO = "https://stats.gov.sa/o/resources/images/logo/logo.svg"
+WORLD_BANK_LOGO = "https://www.worldbank.org/content/dam/sites/edge/wbglogo-topnav-eng.svg"
+SEARCH_ICON = "https://cdn-icons-png.flaticon.com/128/151/151773.png"
+LIBRARY_ICON = "https://cdn-icons-png.flaticon.com/128/4300/4300059.png"
 
 @st.cache_data
 def get_counts():
@@ -21,7 +21,6 @@ def get_counts():
 
 saudi_count, world_count = get_counts()
 total = saudi_count + world_count
-
 
 st.markdown("""
 <style>
@@ -35,13 +34,11 @@ html, body, .stApp {
         #020617;
 }
 
-#MainMenu, footer, header {
-    visibility: hidden;
-}
-
+#MainMenu, footer, header,
 [data-testid="stSidebar"],
 [data-testid="collapsedControl"] {
-    display: none;
+    display: none !important;
+    visibility: hidden !important;
 }
 
 .block-container {
@@ -50,7 +47,6 @@ html, body, .stApp {
     padding-bottom: 4rem;
 }
 
-/* metrics */
 .metric-box {
     background: rgba(15,23,42,0.72);
     backdrop-filter: blur(18px);
@@ -61,13 +57,18 @@ html, body, .stApp {
     box-shadow: 0 12px 35px rgba(0,0,0,0.35);
 }
 
+.metric-icon {
+    width: 28px;
+    height: 28px;
+    margin-bottom: 10px;
+}
+
 .metric-number {
     font-size: 2.4rem;
     font-weight: 800;
     color: #60a5fa;
 }
 
-/* source cards */
 .source-card {
     min-height: 540px;
     background: linear-gradient(180deg, rgba(8,18,40,0.95), rgba(2,8,23,0.98));
@@ -75,6 +76,12 @@ html, body, .stApp {
     border-radius: 24px;
     padding: 2rem;
     box-shadow: 0 18px 45px rgba(0,0,0,0.35);
+    transition: 0.2s ease;
+}
+
+.source-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(96,165,250,0.25);
 }
 
 .logo-wrap {
@@ -111,12 +118,19 @@ html, body, .stApp {
 }
 
 .badge {
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
     margin-top: 1.2rem;
     padding: 10px 18px;
     border-radius: 999px;
     font-weight: 600;
     font-size: 14px;
+}
+
+.badge img {
+    width: 18px;
+    height: 18px;
 }
 
 .badge-green {
@@ -131,7 +145,6 @@ html, body, .stApp {
     color: #93c5fd;
 }
 
-/* buttons */
 .stButton > button {
     height: 56px;
     border-radius: 16px;
@@ -143,7 +156,6 @@ html, body, .stApp {
     box-shadow: 0 10px 25px rgba(37,99,235,0.3);
 }
 
-/* why section */
 .why-box {
     background: rgba(15,23,42,0.68);
     backdrop-filter: blur(18px);
@@ -153,17 +165,24 @@ html, body, .stApp {
 }
 
 .why-item {
+    display: flex;
+    align-items: center;
+    gap: 14px;
     font-size: 1.05rem;
     color: #cbd5e1;
-    margin: 0.8rem 0;
+    margin: 1rem 0;
+}
+
+.why-item img {
+    width: 20px;
+    height: 20px;
 }
 </style>
 """, unsafe_allow_html=True)
 
-
-# HERO
-st.html("""
+st.markdown(f"""
 <div style="text-align:center; padding: 2rem 0 3rem 0;">
+    <img src="{LIBRARY_ICON}" style="width:70px;height:70px;margin-bottom:18px;">
     <h1 style="
         font-size:4.6rem;
         font-weight:800;
@@ -185,47 +204,44 @@ st.html("""
         Trusted official datasets. Fast access. Research-ready downloads.
     </p>
 </div>
-""")
+""", unsafe_allow_html=True)
 
-
-# METRICS
 m1, m2, m3 = st.columns(3)
 
 with m1:
-    st.html(f"""
+    st.markdown(f"""
     <div class="metric-box">
+        <img src="{LIBRARY_ICON}" class="metric-icon">
         <div class="metric-number">{total}+</div>
         <div>Available Resources</div>
     </div>
-    """)
+    """, unsafe_allow_html=True)
 
 with m2:
-    st.html("""
+    st.markdown(f"""
     <div class="metric-box">
+        <img src="{SEARCH_ICON}" class="metric-icon">
         <div class="metric-number">2</div>
         <div>Official Sources</div>
     </div>
-    """)
+    """, unsafe_allow_html=True)
 
 with m3:
-    st.html("""
+    st.markdown(f"""
     <div class="metric-box">
+        <img src="{SEARCH_ICON}" class="metric-icon">
         <div class="metric-number">Monthly</div>
         <div>Auto Updates</div>
     </div>
-    """)
+    """, unsafe_allow_html=True)
 
-st.write("")
-
-
-# SOURCE CARDS
 c1, c2 = st.columns(2, gap="large")
 
 with c1:
-    st.html(f"""
+    st.markdown(f"""
     <div class="source-card">
         <div class="logo-wrap">
-            <img src="https://stats.gov.sa/o/resources/images/logo/logo.svg">
+            <img src="{SAUDI_LOGO}">
         </div>
 
         <div class="source-title">Saudi Statistics</div>
@@ -236,19 +252,20 @@ with c1:
         </div>
 
         <div class="badge badge-green">
-            ✓ Official Government Source
+            <img src="{SAUDI_LOGO}">
+            Official Government Source
         </div>
     </div>
-    """)
+    """, unsafe_allow_html=True)
 
-    if st.button("Explore Saudi Statistics →", use_container_width=True):
+    if st.button("Explore Saudi Statistics", use_container_width=True):
         st.switch_page("pages/saudi.py")
 
 with c2:
-    st.html(f"""
+    st.markdown(f"""
     <div class="source-card">
         <div class="logo-wrap">
-            <img src="https://www.worldbank.org/content/dam/sites/edge/wbglogo-topnav-eng.svg">
+            <img src="{WORLD_BANK_LOGO}">
         </div>
 
         <div class="source-title">World Bank</div>
@@ -259,70 +276,37 @@ with c2:
         </div>
 
         <div class="badge badge-blue">
-            🌍 Trusted International Source
+            <img src="{WORLD_BANK_LOGO}">
+            Trusted International Source
         </div>
     </div>
-    """)
+    """, unsafe_allow_html=True)
 
-    if st.button("Explore World Bank →", use_container_width=True):
+    if st.button("Explore World Bank", use_container_width=True):
         st.switch_page("pages/worldbank.py")
 
-st.write("")
-st.write("")
-
-
-# WHY
-st.html("""
+st.markdown(f"""
 <div class="why-box">
     <h2 style="color:white;">Why this platform?</h2>
 
-<<<<<<< HEAD
-        col1, col2, col3 = st.columns([1, 1, 1.2])
+    <div class="why-item">
+        <img src="{SEARCH_ICON}">
+        Unified access to multiple trusted official sources
+    </div>
 
-        with col1:
-            badge = "pdf" if row["type"] == "PDF" else "excel"
-            st.markdown(
-                f'<div class="badge {badge}">{row["type"]}</div>',
-                unsafe_allow_html=True
-            )
+    <div class="why-item">
+        <img src="{SEARCH_ICON}">
+        Fast search and filtering experience
+    </div>
 
-        with col2:
-            st.markdown(
-                f'<div class="badge year">{row["year"]}</div>',
-                unsafe_allow_html=True
-            )
+    <div class="why-item">
+        <img src="{SEARCH_ICON}">
+        Automatically updated downloadable datasets
+    </div>
 
-        with col3:
-            st.link_button(
-                "📂 Open Document",
-                row["url"],
-                use_container_width=True
-            )
-
-        st.markdown('</div>', unsafe_allow_html=True)   
-
-# ---------------- PAGINATION BUTTONS ----------------
-prev_col, mid_col, next_col = st.columns([1, 2, 1])
-
-with prev_col:
-    if st.button("⬅ Previous", disabled=st.session_state.page == 1):
-        st.session_state.page -= 1
-        st.rerun()
-
-with mid_col:
-    st.markdown(
-        f"<div class='pagination'>Page {st.session_state.page} of {total_pages}</div>",
-        unsafe_allow_html=True
-    )
-
-with next_col:
-    if st.button("Next ➡", disabled=st.session_state.page == total_pages):
-        st.session_state.page += 1
-        st.rerun()
-=======
-    <div class="why-item">🌐 Unified access to multiple trusted official sources</div>
-    <div class="why-item">🔎 Fast search and filtering experience</div>
-    <div class="why-item">🔄 Automatically updated downloadable datasets</div>
-    <div class="why-item">📊 Research-ready resources for analysts and businesses</div>
+    <div class="why-item">
+        <img src="{LIBRARY_ICON}">
+        Research-ready resources for analysts and businesses
+    </div>
 </div>
-""")
+""", unsafe_allow_html=True)
