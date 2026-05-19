@@ -348,7 +348,7 @@ for _, row in page_df.iterrows():
                 use_container_width=True
             )
 
-        st.markdown('</div>', unsafe_allow_html=True)
+        st.markdown('</div>', unsafe_allow_html=True)   
 
 # ---------------- PAGINATION BUTTONS ----------------
 prev_col, mid_col, next_col = st.columns([1, 2, 1])
