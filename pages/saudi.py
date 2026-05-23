@@ -1,11 +1,14 @@
 import streamlit as st
 import pandas as pd
 
-st.set_page_config(page_title='Saudi Statistics', page_icon='🇸🇦', layout='wide', initial_sidebar_state='collapsed')
 
 PDF_ICON='https://cdn-icons-png.flaticon.com/512/11180/11180582.png'
 EXCEL_ICON='https://res.cdn.office.net/files/fabric-cdn-prod_20251117.001/assets/brand-icons/product/svg/excel_16x1.svg'
 LOGO='https://stats.gov.sa/o/resources/images/logo/logo.svg'
+
+
+st.set_page_config(page_title='Saudi Statistics', page_icon=LOGO, layout='wide', initial_sidebar_state='collapsed')
+
 
 @st.cache_data
 def load_data():

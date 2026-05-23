@@ -1,72 +1,281 @@
-﻿title,pdf_url,excel_url,source,year,dataset_id,description
-Doing Business,,https://api.worldbank.org/v2/sources/1/download?format=csv,World Bank,Unknown,1,
-World Development Indicators,,https://api.worldbank.org/v2/sources/2/download?format=csv,World Bank,Unknown,2,
-Worldwide Governance Indicators,,https://api.worldbank.org/v2/sources/3/download?format=csv,World Bank,Unknown,3,
-Subnational Malnutrition Database,,https://api.worldbank.org/v2/sources/5/download?format=csv,World Bank,Unknown,5,
-International Debt Statistics,,https://api.worldbank.org/v2/sources/6/download?format=csv,World Bank,Unknown,6,
-Africa Development Indicators,,https://api.worldbank.org/v2/sources/11/download?format=csv,World Bank,Unknown,11,
-Education Statistics,,https://api.worldbank.org/v2/sources/12/download?format=csv,World Bank,Unknown,12,
-Enterprise Surveys,,https://api.worldbank.org/v2/sources/13/download?format=csv,World Bank,Unknown,13,
-Gender Statistics,,https://api.worldbank.org/v2/sources/14/download?format=csv,World Bank,Unknown,14,
-Global Economic Monitor,,https://api.worldbank.org/v2/sources/15/download?format=csv,World Bank,Unknown,15,
-Health Nutrition and Population Statistics,,https://api.worldbank.org/v2/sources/16/download?format=csv,World Bank,Unknown,16,
-IDA Results Measurement System,,https://api.worldbank.org/v2/sources/18/download?format=csv,World Bank,Unknown,18,
-Millennium Development Goals,,https://api.worldbank.org/v2/sources/19/download?format=csv,World Bank,Unknown,19,
-Quarterly Public Sector Debt,,https://api.worldbank.org/v2/sources/20/download?format=csv,World Bank,Unknown,20,
-Quarterly External Debt Statistics SDDS,,https://api.worldbank.org/v2/sources/22/download?format=csv,World Bank,Unknown,22,
-Quarterly External Debt Statistics GDDS,,https://api.worldbank.org/v2/sources/23/download?format=csv,World Bank,Unknown,23,
-Jobs,,https://api.worldbank.org/v2/sources/25/download?format=csv,World Bank,Unknown,25,
-Global Economic Prospects,,https://api.worldbank.org/v2/sources/27/download?format=csv,World Bank,Unknown,27,
-Global Findex database,,https://api.worldbank.org/v2/sources/28/download?format=csv,World Bank,Unknown,28,
-The Atlas of Social Protection: Indicators of Resilience and Equity,,https://api.worldbank.org/v2/sources/29/download?format=csv,World Bank,Unknown,29,
-Exporter Dynamics Database – Indicators at Country-Year Level,,https://api.worldbank.org/v2/sources/30/download?format=csv,World Bank,Unknown,30,
-Country Policy and Institutional Assessment,,https://api.worldbank.org/v2/sources/31/download?format=csv,World Bank,Unknown,31,
-Global Financial Development,,https://api.worldbank.org/v2/sources/32/download?format=csv,World Bank,Unknown,32,
-G20 Financial Inclusion Indicators,,https://api.worldbank.org/v2/sources/33/download?format=csv,World Bank,Unknown,33,
-Global Partnership for Education,,https://api.worldbank.org/v2/sources/34/download?format=csv,World Bank,Unknown,34,
-Sustainable Energy for All,,https://api.worldbank.org/v2/sources/35/download?format=csv,World Bank,Unknown,35,
-LAC Equity Lab,,https://api.worldbank.org/v2/sources/37/download?format=csv,World Bank,Unknown,37,
-Subnational Poverty,,https://api.worldbank.org/v2/sources/38/download?format=csv,World Bank,Unknown,38,
-Health Nutrition and Population Statistics by Wealth Quintile,,https://api.worldbank.org/v2/sources/39/download?format=csv,World Bank,Unknown,39,
-Population estimates and projections,,https://api.worldbank.org/v2/sources/40/download?format=csv,World Bank,Unknown,40,
-Country Partnership Strategy for India (FY2013 - 17),,https://api.worldbank.org/v2/sources/41/download?format=csv,World Bank,2013,41,
-Adjusted Net Savings,,https://api.worldbank.org/v2/sources/43/download?format=csv,World Bank,Unknown,43,
-Indonesia Database for Policy and Economic Research,,https://api.worldbank.org/v2/sources/45/download?format=csv,World Bank,Unknown,45,
-Sustainable Development Goals ,,https://api.worldbank.org/v2/sources/46/download?format=csv,World Bank,Unknown,46,
-Subnational Population,,https://api.worldbank.org/v2/sources/50/download?format=csv,World Bank,Unknown,50,
-Joint External Debt Hub,,https://api.worldbank.org/v2/sources/54/download?format=csv,World Bank,Unknown,54,
-WDI Database Archives,,https://api.worldbank.org/v2/sources/57/download?format=csv,World Bank,Unknown,57,
-Universal Health Coverage,,https://api.worldbank.org/v2/sources/58/download?format=csv,World Bank,Unknown,58,
-Wealth Accounts,,https://api.worldbank.org/v2/sources/59/download?format=csv,World Bank,Unknown,59,
-Economic Fitness,,https://api.worldbank.org/v2/sources/60/download?format=csv,World Bank,Unknown,60,
-PPPs Regulatory Quality,,https://api.worldbank.org/v2/sources/61/download?format=csv,World Bank,Unknown,61,
-International Comparison Program (ICP) 2011,,https://api.worldbank.org/v2/sources/62/download?format=csv,World Bank,2011,62,
-Human Capital Index,,https://api.worldbank.org/v2/sources/63/download?format=csv,World Bank,Unknown,63,
-Worldwide Bureaucracy Indicators,,https://api.worldbank.org/v2/sources/64/download?format=csv,World Bank,Unknown,64,
-Health Equity and Financial Protection Indicators,,https://api.worldbank.org/v2/sources/65/download?format=csv,World Bank,Unknown,65,
-Logistics Performance Index,,https://api.worldbank.org/v2/sources/66/download?format=csv,World Bank,Unknown,66,
-PEFA 2011,,https://api.worldbank.org/v2/sources/67/download?format=csv,World Bank,2011,67,
-PEFA 2016,,https://api.worldbank.org/v2/sources/68/download?format=csv,World Bank,2016,68,
-Global Financial Inclusion and Consumer Protection Survey,,https://api.worldbank.org/v2/sources/69/download?format=csv,World Bank,Unknown,69,
-Economic Fitness 2,,https://api.worldbank.org/v2/sources/70/download?format=csv,World Bank,Unknown,70,
-International Comparison Program (ICP) 2005,,https://api.worldbank.org/v2/sources/71/download?format=csv,World Bank,2005,71,
-Global Financial Inclusion and Consumer Protection Survey (Internal),,https://api.worldbank.org/v2/sources/73/download?format=csv,World Bank,Unknown,73,
-"Environment, Social and Governance (ESG) Data",,https://api.worldbank.org/v2/sources/75/download?format=csv,World Bank,Unknown,75,
-Remittance Prices Worldwide (Sending Countries),,https://api.worldbank.org/v2/sources/76/download?format=csv,World Bank,Unknown,76,
-Remittance Prices Worldwide (Receiving Countries),,https://api.worldbank.org/v2/sources/77/download?format=csv,World Bank,Unknown,77,
-ICP 2017,,https://api.worldbank.org/v2/sources/78/download?format=csv,World Bank,2017,78,
-PEFA_GRPFM,,https://api.worldbank.org/v2/sources/79/download?format=csv,World Bank,Unknown,79,
-Gender Disaggregated Labor Database (GDLD),,https://api.worldbank.org/v2/sources/80/download?format=csv,World Bank,Unknown,80,
- International Debt Statistics: DSSI,,https://api.worldbank.org/v2/sources/81/download?format=csv,World Bank,Unknown,81,
-Global Public Procurement,,https://api.worldbank.org/v2/sources/82/download?format=csv,World Bank,Unknown,82,
-Statistical Performance Indicators (SPI),,https://api.worldbank.org/v2/sources/83/download?format=csv,World Bank,Unknown,83,
-Education Policy,,https://api.worldbank.org/v2/sources/84/download?format=csv,World Bank,Unknown,84,
-PEFA_2021_SNG,,https://api.worldbank.org/v2/sources/85/download?format=csv,World Bank,2021,85,
-Global Jobs Indicators Database (JOIN),,https://api.worldbank.org/v2/sources/86/download?format=csv,World Bank,Unknown,86,
-Country Climate and Development Report (CCDR),,https://api.worldbank.org/v2/sources/87/download?format=csv,World Bank,Unknown,87,
-Food Prices for Nutrition,,https://api.worldbank.org/v2/sources/88/download?format=csv,World Bank,Unknown,88,
-Identification for Development (ID4D) Data,,https://api.worldbank.org/v2/sources/89/download?format=csv,World Bank,Unknown,89,
-ICP 2021,,https://api.worldbank.org/v2/sources/90/download?format=csv,World Bank,2021,90,
-PEFA_CRPFM,,https://api.worldbank.org/v2/sources/91/download?format=csv,World Bank,Unknown,91,
-Disability Data Hub (DDH),,https://api.worldbank.org/v2/sources/92/download?format=csv,World Bank,Unknown,92,
-FPN Datahub Archive,,https://api.worldbank.org/v2/sources/93/download?format=csv,World Bank,Unknown,93,
+﻿title,csv_url,excel_url,source_page
+"Saudi Arabia | Data
+https://data.worldbank.org/country/saudi-arabia",https://api.worldbank.org/v2/en/country/SAU?downloadformat=csv,https://api.worldbank.org/v2/en/country/SAU?downloadformat=excel,https://data.worldbank.org/country/saudi-arabia
+"GDP (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA
+"GNI per capita, Atlas method (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GNP.PCAP.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GNP.PCAP.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GNP.PCAP.CD?locations=SA
+"GDP per capita (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SA
+"Military expenditure (current USD) - Saudi Arabia
+https://data.worldbank.org/indicator/MS.MIL.XPND.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/MS.MIL.XPND.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/MS.MIL.XPND.CD?downloadformat=excel,https://data.worldbank.org/indicator/MS.MIL.XPND.CD?locations=SA
+"Literacy rate, adult female (% of females ages 15 and above) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.ADT.LITR.FE.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.ADT.LITR.FE.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.ADT.LITR.FE.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SE.ADT.LITR.FE.ZS?locations=SA
+"Nurses and midwives (per 1,000 people) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.MED.NUMW.P3?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.MED.NUMW.P3?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.MED.NUMW.P3?downloadformat=excel,https://data.worldbank.org/indicator/SH.MED.NUMW.P3?locations=SA
+"Population, total - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.TOTL?locations=SA
+"Trade (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.TRD.GNFS.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.TRD.GNFS.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NE.TRD.GNFS.ZS?locations=SA
+"Proportion of seats held by women in national parliaments (%) - Saudi Arabia
+https://data.worldbank.org/indicator/SG.GEN.PARL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SG.GEN.PARL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SG.GEN.PARL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SG.GEN.PARL.ZS?locations=SA
+"GDP, PPP (current international $) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.PP.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.PP.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.MKTP.PP.CD?locations=SA
+"Services, value added (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/NV.SRV.TOTL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NV.SRV.TOTL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NV.SRV.TOTL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NV.SRV.TOTL.ZS?locations=SA
+"Saudi Arabia - Labor force, total
+https://data.worldbank.org/indicator/SL.TLF.TOTL.IN?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.TLF.TOTL.IN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.TLF.TOTL.IN?downloadformat=excel,https://data.worldbank.org/indicator/SL.TLF.TOTL.IN?locations=SA
+"Exports of goods and services (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.EXP.GNFS.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.EXP.GNFS.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.EXP.GNFS.CD?downloadformat=excel,https://data.worldbank.org/indicator/NE.EXP.GNFS.CD?locations=SA
+"Access to electricity (% of population) - Saudi Arabia
+https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/EG.ELC.ACCS.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/EG.ELC.ACCS.ZS?downloadformat=excel,https://data.worldbank.org/indicator/EG.ELC.ACCS.ZS?locations=SA
+"Subsidies and other transfers (% of expense) - Saudi Arabia
+https://data.worldbank.org/indicator/GC.XPN.TRFT.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/GC.XPN.TRFT.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/GC.XPN.TRFT.ZS?downloadformat=excel,https://data.worldbank.org/indicator/GC.XPN.TRFT.ZS?locations=SA
+"GDP deflator (base year varies by country) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.DEFL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.DEFL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.DEFL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.DEFL.ZS?locations=SA
+"Manufacturing, value added (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/NV.IND.MANF.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NV.IND.MANF.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NV.IND.MANF.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NV.IND.MANF.ZS?locations=SA
+"Surface area (sq. km) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/AG.SRF.TOTL.K2?locations=SA",https://api.worldbank.org/v2/en/indicator/AG.SRF.TOTL.K2?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/AG.SRF.TOTL.K2?downloadformat=excel,https://data.worldbank.org/indicator/AG.SRF.TOTL.K2?locations=SA
+"Gross fixed capital formation (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.GDI.FTOT.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.GDI.FTOT.CD?downloadformat=excel,https://data.worldbank.org/indicator/NE.GDI.FTOT.CD?locations=SA
+"Current account balance (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/BN.CAB.XOKA.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/BN.CAB.XOKA.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/BN.CAB.XOKA.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/BN.CAB.XOKA.GD.ZS?locations=SA
+"Life expectancy at birth, female (years) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.DYN.LE00.FE.IN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.DYN.LE00.FE.IN?downloadformat=excel,https://data.worldbank.org/indicator/SP.DYN.LE00.FE.IN?locations=SA
+"Labor force, female (% of total labor force) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.TLF.TOTL.FE.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.TLF.TOTL.FE.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.TLF.TOTL.FE.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.TLF.TOTL.FE.ZS?locations=SA
+"Mortality rate, infant (per 1,000 live births) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.DYN.IMRT.IN?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.DYN.IMRT.IN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.DYN.IMRT.IN?downloadformat=excel,https://data.worldbank.org/indicator/SP.DYN.IMRT.IN?locations=SA
+"Final consumption expenditure (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.CON.TOTL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.CON.TOTL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.CON.TOTL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NE.CON.TOTL.ZS?locations=SA
+"Population ages 65 and above (% of total population) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.65UP.TO.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.65UP.TO.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.65UP.TO.ZS?locations=SA
+"Exports of goods and services (annual % growth) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/NE.EXP.GNFS.KD.ZG?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.EXP.GNFS.KD.ZG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.EXP.GNFS.KD.ZG?downloadformat=excel,https://data.worldbank.org/indicator/NE.EXP.GNFS.KD.ZG?locations=SA
+"Urban land area (sq. km) - Saudi Arabia
+https://data.worldbank.org/indicator/AG.LND.TOTL.UR.K2?locations=SA",https://api.worldbank.org/v2/en/indicator/AG.LND.TOTL.UR.K2?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/AG.LND.TOTL.UR.K2?downloadformat=excel,https://data.worldbank.org/indicator/AG.LND.TOTL.UR.K2?locations=SA
+"Mortality caused by road traffic injury (per 100,000 population) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.STA.TRAF.P5?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.STA.TRAF.P5?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.STA.TRAF.P5?downloadformat=excel,https://data.worldbank.org/indicator/SH.STA.TRAF.P5?locations=SA
+"Physicians (per 1,000 people) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.MED.PHYS.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.MED.PHYS.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SH.MED.PHYS.ZS?locations=SA
+"Total reserves (includes gold, current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/FI.RES.TOTL.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FI.RES.TOTL.CD?downloadformat=excel,https://data.worldbank.org/indicator/FI.RES.TOTL.CD?locations=SA
+"Logistics performance index: Quality of trade and transport-related infrastructure (1=low to 5=high) - Saudi Arabia
+https://data.worldbank.org/indicator/LP.LPI.INFR.XQ?locations=SA",https://api.worldbank.org/v2/en/indicator/LP.LPI.INFR.XQ?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/LP.LPI.INFR.XQ?downloadformat=excel,https://data.worldbank.org/indicator/LP.LPI.INFR.XQ?locations=SA
+"Fertility rate, total (births per woman) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.DYN.TFRT.IN?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.DYN.TFRT.IN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.DYN.TFRT.IN?downloadformat=excel,https://data.worldbank.org/indicator/SP.DYN.TFRT.IN?locations=SA
+"Net migration - Saudi Arabia
+https://data.worldbank.org/indicator/SM.POP.NETM?locations=SA",https://api.worldbank.org/v2/en/indicator/SM.POP.NETM?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SM.POP.NETM?downloadformat=excel,https://data.worldbank.org/indicator/SM.POP.NETM?locations=SA
+"Total natural resources rents (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.TOTL.RT.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.TOTL.RT.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.TOTL.RT.ZS?locations=SA
+"Researchers in R&D (per million people) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.SCIE.RD.P6?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.SCIE.RD.P6?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.SCIE.RD.P6?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.SCIE.RD.P6?locations=SA
+"Employment in agriculture (% of total employment) (modeled ILO estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.AGR.EMPL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.AGR.EMPL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.AGR.EMPL.ZS?locations=SA
+"Air transport, passengers carried - Saudi Arabia
+https://data.worldbank.org/indicator/IS.AIR.PSGR?locations=SA",https://api.worldbank.org/v2/en/indicator/IS.AIR.PSGR?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IS.AIR.PSGR?downloadformat=excel,https://data.worldbank.org/indicator/IS.AIR.PSGR?locations=SA
+"Data for Saudi Arabia, Turkiye, Iran, Islamic Rep.
+https://data.worldbank.org/?locations=SA-TR-IR",https://api.worldbank.org/v2/en/country/SAU;TUR;IRN?downloadformat=csv,https://api.worldbank.org/v2/en/country/SAU;TUR;IRN?downloadformat=excel,https://data.worldbank.org/?locations=SA-TR-IR
+"Unemployment, female (% of female labor force) (modeled ILO estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.UEM.TOTL.FE.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.UEM.TOTL.FE.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.UEM.TOTL.FE.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.UEM.TOTL.FE.ZS?locations=SA
+"Research and development expenditure (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/GB.XPD.RSDV.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/GB.XPD.RSDV.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/GB.XPD.RSDV.GD.ZS?locations=SA
+"Population ages 0-14 (% of total population) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.0014.TO.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.0014.TO.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.0014.TO.ZS?locations=SA
+"Tax revenue (current LCU) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/GC.TAX.TOTL.CN?locations=SA",https://api.worldbank.org/v2/en/indicator/GC.TAX.TOTL.CN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/GC.TAX.TOTL.CN?downloadformat=excel,https://data.worldbank.org/indicator/GC.TAX.TOTL.CN?locations=SA
+"Birth rate, crude (per 1,000 people) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.DYN.CBRT.IN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.DYN.CBRT.IN?downloadformat=excel,https://data.worldbank.org/indicator/SP.DYN.CBRT.IN?locations=SA
+"Current health expenditure (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.XPD.CHEX.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.XPD.CHEX.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SH.XPD.CHEX.GD.ZS?locations=SA
+"Final consumption expenditure (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.CON.TOTL.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.CON.TOTL.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.CON.TOTL.CD?downloadformat=excel,https://data.worldbank.org/indicator/NE.CON.TOTL.CD?locations=SA
+"GDP per capita growth (annual %) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.KD.ZG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.KD.ZG?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.PCAP.KD.ZG?locations=SA
+"Real interest rate (%) - Saudi Arabia
+https://data.worldbank.org/indicator/FR.INR.RINR?locations=SA",https://api.worldbank.org/v2/en/indicator/FR.INR.RINR?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FR.INR.RINR?downloadformat=excel,https://data.worldbank.org/indicator/FR.INR.RINR?locations=SA
+"Official exchange rate (LCU per US$, period average) - Saudi Arabia
+https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=SA",https://api.worldbank.org/v2/en/indicator/PA.NUS.FCRF?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/PA.NUS.FCRF?downloadformat=excel,https://data.worldbank.org/indicator/PA.NUS.FCRF?locations=SA
+"School enrollment, tertiary (% gross) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.TER.ENRR?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.TER.ENRR?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.TER.ENRR?downloadformat=excel,https://data.worldbank.org/indicator/SE.TER.ENRR?locations=SA
+"Cause of death, by communicable diseases and maternal, prenatal and nutrition conditions (% of total) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.DTH.COMM.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.DTH.COMM.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.DTH.COMM.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SH.DTH.COMM.ZS?locations=SA
+"Unemployment, youth total (% of total labor force ages 15-24) (national estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.UEM.1524.NE.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.UEM.1524.NE.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.UEM.1524.NE.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.UEM.1524.NE.ZS?locations=SA
+"Adolescent fertility rate (births per 1,000 women ages 15-19) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.ADO.TFRT?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.ADO.TFRT?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.ADO.TFRT?downloadformat=excel,https://data.worldbank.org/indicator/SP.ADO.TFRT?locations=SA
+"Container port traffic (TEU: 20 foot equivalent units) - Saudi Arabia
+https://data.worldbank.org/indicator/IS.SHP.GOOD.TU?locations=SA",https://api.worldbank.org/v2/en/indicator/IS.SHP.GOOD.TU?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IS.SHP.GOOD.TU?downloadformat=excel,https://data.worldbank.org/indicator/IS.SHP.GOOD.TU?locations=SA
+"Present value of external debt (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/DT.DOD.PVLX.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/DT.DOD.PVLX.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/DT.DOD.PVLX.CD?downloadformat=excel,https://data.worldbank.org/indicator/DT.DOD.PVLX.CD?locations=SA
+"Incidence of tuberculosis (per 100,000 people) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.TBS.INCD?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.TBS.INCD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.TBS.INCD?downloadformat=excel,https://data.worldbank.org/indicator/SH.TBS.INCD?locations=SA
+"Population ages 65 and above, total - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.65UP.TO?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.65UP.TO?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.65UP.TO?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.65UP.TO?locations=SA
+"Domestic credit to private sector (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/FS.AST.PRVT.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FS.AST.PRVT.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/FS.AST.PRVT.GD.ZS?locations=SA
+"Agricultural land (% of land area) - Saudi Arabia
+https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/AG.LND.AGRI.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/AG.LND.AGRI.ZS?downloadformat=excel,https://data.worldbank.org/indicator/AG.LND.AGRI.ZS?locations=SA
+"Hospital beds (per 1,000 people) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.MED.BEDS.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.MED.BEDS.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SH.MED.BEDS.ZS?locations=SA
+"GNI (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GNP.MKTP.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GNP.MKTP.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GNP.MKTP.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GNP.MKTP.CD?locations=SA
+"New businesses registered (number) - Saudi Arabia
+https://data.worldbank.org/indicator/IC.BUS.NREG?locations=SA",https://api.worldbank.org/v2/en/indicator/IC.BUS.NREG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IC.BUS.NREG?downloadformat=excel,https://data.worldbank.org/indicator/IC.BUS.NREG?locations=SA
+"Bank nonperforming loans to total gross loans (%) - Saudi Arabia
+https://data.worldbank.org/indicator/FB.AST.NPER.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/FB.AST.NPER.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FB.AST.NPER.ZS?downloadformat=excel,https://data.worldbank.org/indicator/FB.AST.NPER.ZS?locations=SA
+"Gross fixed capital formation (annual % growth) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.GDI.FTOT.KD.ZG?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.GDI.FTOT.KD.ZG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.GDI.FTOT.KD.ZG?downloadformat=excel,https://data.worldbank.org/indicator/NE.GDI.FTOT.KD.ZG?locations=SA
+"Households and NPISHs final consumption expenditure (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.CON.PRVT.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.CON.PRVT.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.CON.PRVT.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NE.CON.PRVT.ZS?locations=SA
+"Central government debt, total (% of GDP) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/GC.DOD.TOTL.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/GC.DOD.TOTL.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/GC.DOD.TOTL.GD.ZS?locations=SA
+"Population in largest city - Saudi Arabia
+https://data.worldbank.org/indicator/EN.URB.LCTY?locations=SA",https://api.worldbank.org/v2/en/indicator/EN.URB.LCTY?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/EN.URB.LCTY?downloadformat=excel,https://data.worldbank.org/indicator/EN.URB.LCTY?locations=SA
+"GDP (current US$) - Saudi Arabia, Israel
+https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA-IL",https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA-IL
+"Employment to population ratio, 15+, total (%) (national estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.NE.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.EMP.TOTL.SP.NE.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.EMP.TOTL.SP.NE.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.EMP.TOTL.SP.NE.ZS?locations=SA
+"Out-of-pocket expenditure (% of current health expenditure) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.XPD.OOPC.CH.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.XPD.OOPC.CH.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SH.XPD.OOPC.CH.ZS?locations=SA
+"Personal remittances, received (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT?locations=SA",https://api.worldbank.org/v2/en/indicator/BX.TRF.PWKR.CD.DT?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/BX.TRF.PWKR.CD.DT?downloadformat=excel,https://data.worldbank.org/indicator/BX.TRF.PWKR.CD.DT?locations=SA
+"School enrollment, secondary, female (% gross) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.SEC.ENRR.FE?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.SEC.ENRR.FE?downloadformat=excel,https://data.worldbank.org/indicator/SE.SEC.ENRR.FE?locations=SA
+"Poverty headcount ratio at national poverty lines (% of population) - Saudi Arabia
+https://data.worldbank.org/indicator/SI.POV.NAHC?locations=SA",https://api.worldbank.org/v2/en/indicator/SI.POV.NAHC?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SI.POV.NAHC?downloadformat=excel,https://data.worldbank.org/indicator/SI.POV.NAHC?locations=SA
+"Personal remittances, paid (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/BM.TRF.PWKR.CD.DT?locations=SA",https://api.worldbank.org/v2/en/indicator/BM.TRF.PWKR.CD.DT?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/BM.TRF.PWKR.CD.DT?downloadformat=excel,https://data.worldbank.org/indicator/BM.TRF.PWKR.CD.DT?locations=SA
+"Gross value added at basic prices (GVA) (current LCU) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.FCST.CN?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.FCST.CN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.FCST.CN?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.FCST.CN?locations=SA
+"International tourism, number of arrivals - Saudi Arabia
+https://data.worldbank.org/indicator/ST.INT.ARVL?locations=SA",https://api.worldbank.org/v2/en/indicator/ST.INT.ARVL?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/ST.INT.ARVL?downloadformat=excel,https://data.worldbank.org/indicator/ST.INT.ARVL?locations=SA
+"School enrollment, primary, male (% net) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.PRM.NENR.MA?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.PRM.NENR.MA?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.PRM.NENR.MA?downloadformat=excel,https://data.worldbank.org/indicator/SE.PRM.NENR.MA?locations=SA
+"International migrant stock (% of population) - Saudi Arabia
+https://data.worldbank.org/indicator/SM.POP.TOTL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SM.POP.TOTL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SM.POP.TOTL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SM.POP.TOTL.ZS?locations=SA
+"Level of water stress: freshwater withdrawal as a proportion of available freshwater resources - Saudi Arabia | Data
+https://data.worldbank.org/indicator/ER.H2O.FWST.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/ER.H2O.FWST.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/ER.H2O.FWST.ZS?downloadformat=excel,https://data.worldbank.org/indicator/ER.H2O.FWST.ZS?locations=SA
+"Government expenditure on education, total (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.XPD.TOTL.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.XPD.TOTL.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SE.XPD.TOTL.GD.ZS?locations=SA
+"Deposit interest rate (%) - Saudi Arabia
+https://data.worldbank.org/indicator/FR.INR.DPST?locations=SA",https://api.worldbank.org/v2/en/indicator/FR.INR.DPST?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FR.INR.DPST?downloadformat=excel,https://data.worldbank.org/indicator/FR.INR.DPST?locations=SA
+"Lending interest rate (%) - Saudi Arabia
+https://data.worldbank.org/indicator/FR.INR.LEND?locations=SA",https://api.worldbank.org/v2/en/indicator/FR.INR.LEND?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FR.INR.LEND?downloadformat=excel,https://data.worldbank.org/indicator/FR.INR.LEND?locations=SA
+"Inflation, consumer prices (annual %) - Saudi Arabia
+https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SA",https://api.worldbank.org/v2/en/indicator/FP.CPI.TOTL.ZG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FP.CPI.TOTL.ZG?downloadformat=excel,https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SA
+"Annual freshwater withdrawals, industry (% of total freshwater withdrawal) - Saudi Arabia
+https://data.worldbank.org/indicator/ER.H2O.FWIN.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/ER.H2O.FWIN.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/ER.H2O.FWIN.ZS?downloadformat=excel,https://data.worldbank.org/indicator/ER.H2O.FWIN.ZS?locations=SA
+"Scientific and technical journal articles - Saudi Arabia
+https://data.worldbank.org/indicator/IP.JRN.ARTC.SC?locations=SA",https://api.worldbank.org/v2/en/indicator/IP.JRN.ARTC.SC?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IP.JRN.ARTC.SC?downloadformat=excel,https://data.worldbank.org/indicator/IP.JRN.ARTC.SC?locations=SA
+"Population ages 0-14, male (% of male population) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.0014.MA.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.0014.MA.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.0014.MA.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.0014.MA.ZS?locations=SA
+"Chemicals (% of value added in manufacturing) - Saudi Arabia
+https://data.worldbank.org/indicator/NV.MNF.CHEM.ZS.UN?locations=SA",https://api.worldbank.org/v2/en/indicator/NV.MNF.CHEM.ZS.UN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NV.MNF.CHEM.ZS.UN?downloadformat=excel,https://data.worldbank.org/indicator/NV.MNF.CHEM.ZS.UN?locations=SA
+"Educational attainment, at least completed upper secondary, population 25+, total (%) (cumulative) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.SEC.CUAT.UP.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.SEC.CUAT.UP.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.SEC.CUAT.UP.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SE.SEC.CUAT.UP.ZS?locations=SA
+"Government expenditure per student, secondary (% of GDP per capita) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/SE.XPD.SECO.PC.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.XPD.SECO.PC.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.XPD.SECO.PC.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SE.XPD.SECO.PC.ZS?locations=SA
+"Fixed broadband subscriptions (per 100 people) - Saudi Arabia
+https://data.worldbank.org/indicator/IT.NET.BBND.P2?locations=SA",https://api.worldbank.org/v2/en/indicator/IT.NET.BBND.P2?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IT.NET.BBND.P2?downloadformat=excel,https://data.worldbank.org/indicator/IT.NET.BBND.P2?locations=SA
+"Unemployment, youth total (% of total labor force ages 15-24) (modeled ILO estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.UEM.1524.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.UEM.1524.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.UEM.1524.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.UEM.1524.ZS?locations=SA
+"GDP growth (annual %) - Saudi Arabia, Middle East & North Africa (excluding high income)
+https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=SA-XQ",https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.KD.ZG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.KD.ZG?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=SA-XQ
+"Fertilizer consumption (% of fertilizer production) - Saudi Arabia
+https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/AG.CON.FERT.PT.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/AG.CON.FERT.PT.ZS?downloadformat=excel,https://data.worldbank.org/indicator/AG.CON.FERT.PT.ZS?locations=SA
+"Age dependency ratio, old (% of working-age population) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.DPND.OL?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.DPND.OL?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.DPND.OL?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.DPND.OL?locations=SA
+"GDP per capita (current LCU) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.PCAP.CN?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.CN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.CN?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.PCAP.CN?locations=SA
+"Firms formally registered when operations started (% of firms) - Saudi Arabia
+https://data.worldbank.org/indicator/IC.FRM.FREG.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/IC.FRM.FREG.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IC.FRM.FREG.ZS?downloadformat=excel,https://data.worldbank.org/indicator/IC.FRM.FREG.ZS?locations=SA
+"Gross value added at basic prices (GVA) (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.FCST.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.FCST.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.FCST.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.FCST.CD?locations=SA
+"Population, male - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.TOTL.MA.IN?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL.MA.IN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL.MA.IN?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.TOTL.MA.IN?locations=SA
+"Mobile cellular subscriptions (per 100 people) - Saudi Arabia
+https://data.worldbank.org/indicator/IT.CEL.SETS.P2?locations=SA",https://api.worldbank.org/v2/en/indicator/IT.CEL.SETS.P2?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IT.CEL.SETS.P2?downloadformat=excel,https://data.worldbank.org/indicator/IT.CEL.SETS.P2?locations=SA
+"Risk premium on lending (lending rate minus treasury bill rate, %) - Saudi Arabia
+https://data.worldbank.org/indicator/FR.INR.RISK?locations=SA",https://api.worldbank.org/v2/en/indicator/FR.INR.RISK?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FR.INR.RISK?downloadformat=excel,https://data.worldbank.org/indicator/FR.INR.RISK?locations=SA
+"Terrestrial and marine protected areas (% of total territorial area) - Saudi Arabia
+https://data.worldbank.org/indicator/ER.PTD.TOTL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/ER.PTD.TOTL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/ER.PTD.TOTL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/ER.PTD.TOTL.ZS?locations=SA
+"People practicing open defecation, rural (% of rural population) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.STA.ODFC.RU.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.STA.ODFC.RU.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.STA.ODFC.RU.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SH.STA.ODFC.RU.ZS?locations=SA
+"Community health workers (per 1,000 people) - Saudi Arabia
+https://data.worldbank.org/indicator/SH.MED.CMHW.P3?locations=SA",https://api.worldbank.org/v2/en/indicator/SH.MED.CMHW.P3?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SH.MED.CMHW.P3?downloadformat=excel,https://data.worldbank.org/indicator/SH.MED.CMHW.P3?locations=SA
+"Employment in services (% of total employment) (modeled ILO estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.SRV.EMPL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.SRV.EMPL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.SRV.EMPL.ZS?locations=SA
+"Exports of goods and services (current LCU) - Saudi Arabia
+https://data.worldbank.org/indicator/NE.EXP.GNFS.CN?locations=SA",https://api.worldbank.org/v2/en/indicator/NE.EXP.GNFS.CN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NE.EXP.GNFS.CN?downloadformat=excel,https://data.worldbank.org/indicator/NE.EXP.GNFS.CN?locations=SA
+"Tariff rate, most favored nation, weighted mean, primary products (%) - Saudi Arabia
+https://data.worldbank.org/indicator/TM.TAX.TCOM.WM.FN.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/TM.TAX.TCOM.WM.FN.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/TM.TAX.TCOM.WM.FN.ZS?downloadformat=excel,https://data.worldbank.org/indicator/TM.TAX.TCOM.WM.FN.ZS?locations=SA
+"Stocks traded, turnover ratio of domestic shares (%) - Saudi Arabia
+https://data.worldbank.org/indicator/CM.MKT.TRNR?locations=SA",https://api.worldbank.org/v2/en/indicator/CM.MKT.TRNR?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/CM.MKT.TRNR?downloadformat=excel,https://data.worldbank.org/indicator/CM.MKT.TRNR?locations=SA
+"GDP (current US$) - Saudi Arabia, Egypt, Arab Rep.
+https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA-EG",https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA-EG
+"Population ages 60-64, male (% of male population) - Saudi Arabia
+https://data.worldbank.org/indicator/SP.POP.6064.MA.5Y?locations=SA",https://api.worldbank.org/v2/en/indicator/SP.POP.6064.MA.5Y?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.6064.MA.5Y?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.6064.MA.5Y?locations=SA
+"Exports of goods and services (BoP, current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/BX.GSR.GNFS.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/BX.GSR.GNFS.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/BX.GSR.GNFS.CD?downloadformat=excel,https://data.worldbank.org/indicator/BX.GSR.GNFS.CD?locations=SA
+"Unemployment with basic education (% of total labor force with basic education) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.UEM.BASC.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.UEM.BASC.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.UEM.BASC.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.UEM.BASC.ZS?locations=SA
+"Saudi Arabia - School enrollment, primary (% net)
+https://data.worldbank.org/indicator/SE.PRM.NENR?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.PRM.NENR?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.PRM.NENR?downloadformat=excel,https://data.worldbank.org/indicator/SE.PRM.NENR?locations=SA
+"Industry (including construction), value added (annual % growth) - Saudi Arabia
+https://data.worldbank.org/indicator/NV.IND.TOTL.KD.ZG?locations=SA",https://api.worldbank.org/v2/en/indicator/NV.IND.TOTL.KD.ZG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NV.IND.TOTL.KD.ZG?downloadformat=excel,https://data.worldbank.org/indicator/NV.IND.TOTL.KD.ZG?locations=SA
+"Data for Saudi Arabia, Iran, Islamic Rep.
+https://data.worldbank.org/?locations=SA-IR",https://api.worldbank.org/v2/en/country/SAU;IRN?downloadformat=csv,https://api.worldbank.org/v2/en/country/SAU;IRN?downloadformat=excel,https://data.worldbank.org/?locations=SA-IR
+"Saudi Arabia - Patent applications, residents
+https://data.worldbank.org/indicator/IP.PAT.RESD?locations=SA",https://api.worldbank.org/v2/en/indicator/IP.PAT.RESD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IP.PAT.RESD?downloadformat=excel,https://data.worldbank.org/indicator/IP.PAT.RESD?locations=SA
+"Literacy rate, youth total (% of people ages 15-24) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.ADT.1524.LT.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.ADT.1524.LT.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.ADT.1524.LT.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SE.ADT.1524.LT.ZS?locations=SA
+"Persistence to last grade of primary, total (% of cohort) - Saudi Arabia
+https://data.worldbank.org/indicator/SE.PRM.PRSL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.PRM.PRSL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.PRM.PRSL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SE.PRM.PRSL.ZS?locations=SA
+"GDP: linked series (current LCU) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/NY.GDP.MKTP.CN.AD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CN.AD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.CN.AD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.MKTP.CN.AD?locations=SA
+"Trademark applications, nonresident, by count - Saudi Arabia
+https://data.worldbank.org/indicator/IP.TMK.NRCT?locations=SA",https://api.worldbank.org/v2/en/indicator/IP.TMK.NRCT?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IP.TMK.NRCT?downloadformat=excel,https://data.worldbank.org/indicator/IP.TMK.NRCT?locations=SA
+"Electricity production from coal sources (% of total) - Saudi Arabia
+https://data.worldbank.org/indicator/EG.ELC.COAL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/EG.ELC.COAL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/EG.ELC.COAL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/EG.ELC.COAL.ZS?locations=SA
+"Population, male - Saudi Arabia, Israel
+https://data.worldbank.org/indicator/SP.POP.TOTL.MA.IN?locations=SA-IL",https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL.MA.IN?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SP.POP.TOTL.MA.IN?downloadformat=excel,https://data.worldbank.org/indicator/SP.POP.TOTL.MA.IN?locations=SA-IL
+"GDP per capita, PPP (constant 2021 international $) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.PP.KD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.PCAP.PP.KD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.PCAP.PP.KD?locations=SA
+"Claims on central government, etc. (% GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/FS.AST.CGOV.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/FS.AST.CGOV.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FS.AST.CGOV.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/FS.AST.CGOV.GD.ZS?locations=SA
+"Wage and salaried workers, total (% of total employment) (modeled ILO estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.EMP.WORK.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.EMP.WORK.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.EMP.WORK.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.EMP.WORK.ZS?locations=SA
+"Public private partnerships investment in energy (current US$) - Saudi Arabia
+https://data.worldbank.org/indicator/IE.PPN.ENGY.CD?locations=SA",https://api.worldbank.org/v2/en/indicator/IE.PPN.ENGY.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IE.PPN.ENGY.CD?downloadformat=excel,https://data.worldbank.org/indicator/IE.PPN.ENGY.CD?locations=SA
+"Domestic credit provided by financial sector (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/FS.AST.DOMS.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/FS.AST.DOMS.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FS.AST.DOMS.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/FS.AST.DOMS.GD.ZS?locations=SA
+"Employment in agriculture, female (% of female employment) (modeled ILO estimate) - Saudi Arabia
+https://data.worldbank.org/indicator/SL.AGR.EMPL.FE.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/SL.AGR.EMPL.FE.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.AGR.EMPL.FE.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.AGR.EMPL.FE.ZS?locations=SA
+"Technical cooperation grants (BoP, current US$) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/BX.GRT.TECH.CD.WD?locations=SA",https://api.worldbank.org/v2/en/indicator/BX.GRT.TECH.CD.WD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/BX.GRT.TECH.CD.WD?downloadformat=excel,https://data.worldbank.org/indicator/BX.GRT.TECH.CD.WD?locations=SA
+"GDP growth (annual %) - Saudi Arabia, Middle East & North Africa
+https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=SA-ZQ",https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.KD.ZG?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.MKTP.KD.ZG?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG?locations=SA-ZQ
+"Part time employment, male (% of total male employment) - Saudi Arabia, Uzbekistan
+https://data.worldbank.org/indicator/SL.TLF.PART.MA.ZS?locations=SA-UZ",https://api.worldbank.org/v2/en/indicator/SL.TLF.PART.MA.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SL.TLF.PART.MA.ZS?downloadformat=excel,https://data.worldbank.org/indicator/SL.TLF.PART.MA.ZS?locations=SA-UZ
+"Forest rents (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/NY.GDP.FRST.RT.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GDP.FRST.RT.ZS?downloadformat=excel,https://data.worldbank.org/indicator/NY.GDP.FRST.RT.ZS?locations=SA
+"Rural land area (sq. km) - Saudi Arabia
+https://data.worldbank.org/indicator/AG.LND.TOTL.RU.K2?locations=SA",https://api.worldbank.org/v2/en/indicator/AG.LND.TOTL.RU.K2?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/AG.LND.TOTL.RU.K2?downloadformat=excel,https://data.worldbank.org/indicator/AG.LND.TOTL.RU.K2?locations=SA
+"Children out of school, primary - Saudi Arabia | Data
+https://data.worldbank.org/indicator/SE.PRM.UNER?locations=SA",https://api.worldbank.org/v2/en/indicator/SE.PRM.UNER?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/SE.PRM.UNER?downloadformat=excel,https://data.worldbank.org/indicator/SE.PRM.UNER?locations=SA
+"Account ownership at a financial institution or with a mobile-money-service provider (% of population ages 15+) - Saudi Arabia | Data
+https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/FX.OWN.TOTL.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FX.OWN.TOTL.ZS?downloadformat=excel,https://data.worldbank.org/indicator/FX.OWN.TOTL.ZS?locations=SA
+"Industry (including construction), value added (current US$) - Saudi Arabia, Bulgaria
+https://data.worldbank.org/indicator/NV.IND.TOTL.CD?locations=SA-BG",https://api.worldbank.org/v2/en/indicator/NV.IND.TOTL.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NV.IND.TOTL.CD?downloadformat=excel,https://data.worldbank.org/indicator/NV.IND.TOTL.CD?locations=SA-BG
+"Broad money (% of GDP) - Saudi Arabia
+https://data.worldbank.org/indicator/FM.LBL.BMNY.GD.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/FM.LBL.BMNY.GD.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/FM.LBL.BMNY.GD.ZS?downloadformat=excel,https://data.worldbank.org/indicator/FM.LBL.BMNY.GD.ZS?locations=SA
+"Gross savings (current US$) - Saudi Arabia, Macao SAR, China
+https://data.worldbank.org/indicator/NY.GNS.ICTR.CD?locations=SA-MO",https://api.worldbank.org/v2/en/indicator/NY.GNS.ICTR.CD?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/NY.GNS.ICTR.CD?downloadformat=excel,https://data.worldbank.org/indicator/NY.GNS.ICTR.CD?locations=SA-MO
+"Container port traffic (TEU: 20 foot equivalent units) - Saudi Arabia, Ukraine
+https://data.worldbank.org/indicator/IS.SHP.GOOD.TU?locations=SA-UA",https://api.worldbank.org/v2/en/indicator/IS.SHP.GOOD.TU?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/IS.SHP.GOOD.TU?downloadformat=excel,https://data.worldbank.org/indicator/IS.SHP.GOOD.TU?locations=SA-UA
+"Access to clean fuels and technologies for cooking (% of population) - Saudi Arabia
+https://data.worldbank.org/indicator/EG.CFT.ACCS.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/EG.CFT.ACCS.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/EG.CFT.ACCS.ZS?downloadformat=excel,https://data.worldbank.org/indicator/EG.CFT.ACCS.ZS?locations=SA
+"Electric power transmission and distribution losses (% of output) - Saudi Arabia
+https://data.worldbank.org/indicator/EG.ELC.LOSS.ZS?locations=SA",https://api.worldbank.org/v2/en/indicator/EG.ELC.LOSS.ZS?downloadformat=csv,https://api.worldbank.org/v2/en/indicator/EG.ELC.LOSS.ZS?downloadformat=excel,https://data.worldbank.org/indicator/EG.ELC.LOSS.ZS?locations=SA
