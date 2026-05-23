@@ -1,0 +1,5 @@
+old/
+scrapers/
+__pycache__/
+*.pyc
+*.json
